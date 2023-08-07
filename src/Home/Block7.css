@@ -1,0 +1,29 @@
+#block7 {
+  width: 33.77vw;
+  background-color: #b2b2b2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+.swatch {
+  width: 3vw;
+  height: 3vw;
+}
+
+#pink {
+  background-color: #ffaee9;
+}
+#yellow {
+  background-color: #fffd71;
+}
+#blue {
+  background-color: #80fff7;
+}
+#white {
+  background-color: white;
+}
+#black {
+  background-color: black;
+}

@@ -1,0 +1,108 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#Row1 {
+  display: flex;
+  flex-direction: row;
+  height: 26vh;
+}
+#Block1 {
+  width: 55vw;
+}
+#Block2 {
+  width: 45vw;
+}
+
+#Row2 {
+  display: flex;
+  flex-direction: row;
+  height: 21vh;
+}
+#Block3 {
+  width: 28vw;
+  background-color: #80fff7;
+}
+#Block4 {
+  width: 25vw;
+}
+#Block5 {
+  width: 47vw;
+  background-image: url("./check.png");
+  background-repeat: no-repeat;
+}
+
+#Row3 {
+  height: 53vh;
+  display: flex;
+  flex-direction: row;
+}
+#LeftHunk {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+#LHunkRow1 {
+  display: flex;
+  flex-direction: row;
+  height: 33%;
+}
+#Block6 {
+  width: 25%;
+  background-color: #000000;
+}
+#Block7 {
+  background-color: #b2b2b2;
+  width: 75%;
+}
+
+#LHunkRow2 {
+  display: flex;
+  flex-direction: row;
+
+  height: 48%;
+}
+#Block10 {
+  width: 25%;
+  background-color: #fffd71;
+}
+#Block11 {
+  width: 75%;
+  background-color: #ffffff;
+}
+
+#Block8 {
+  color: #ffffff;
+  width: 30vw;
+  background-color: #000000;
+}
+#RightHunk {
+  width: 25vw;
+  background-color: #ffaee9;
+}
+
+#Block12 {
+  background-color: #ffaee9;
+  height: 19%;
+}
+#Block9 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 174, 233, 1) 0%,
+    rgba(255, 253, 113, 1) 100%
+  );
+  height: 81%;
+}
+#Block13 {
+  background-color: #ffaee9;
+  height: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

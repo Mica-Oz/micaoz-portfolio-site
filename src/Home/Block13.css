@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "rubiklight";
+  src: url("rubik-variablefont_wght-webfont.woff2") format("woff2"),
+    url("rubik-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#block13 {
+  font-family: "rubik";
+  font-weight: normal;
+
+  color: black;
+  font-size: 3vw;
+  -webkit-text-stroke: 1px black;
+}

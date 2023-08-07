@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "rubiklight";
+  src: url("rubik-variablefont_wght-webfont.woff2") format("woff2"),
+    url("rubik-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#block {
+  height: 100%;
+  width: 60vw;
+  background-color: #fffd71;
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  font-family: "rubik";
+  font-weight: normal;
+  margin: 0;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  color: black;
+  font-size: 7vw;
+  -webkit-text-stroke: 3px black;
+}
+#marquee {
+  display: flex;
+  overflow: hidden;
+  height: 1vh;
+  user-select: none;
+  gap: 0.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.scrollText {
+  flex-shrink: 0;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+  gap: 0.2rem;
+  /* min-width: 100%; */
+  animation: scroll 15s infinite linear;
+}
+.scrollText span {
+  /* font-family: "rubik" !important; */
+  font-weight: normal;
+  margin: 0;
+  margin-top: 2vh;
+
+  color: #b2b2b2;
+  font-size: 3vh;
+  -webkit-text-stroke: 1px #b2b2b2;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 0.2rem));
+  }
+}
