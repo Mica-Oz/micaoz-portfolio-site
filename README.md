@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -9,62 +5,53 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HELLO WORLD:
+Here is my portfolio site project which is currently under construction.
 
-### `npm test`
+Here is the prototype in figma:
+https://www.figma.com/file/1BlV03JNWTPLVtmUQhfZV2/Portfolio-Site?type=design&node-id=0-1&mode=design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here are some images from the figma for convenience:
 
-### `npm run build`
+<img src='./About-Proto.png' alt='about'/>
+<img src='./Home-Proto.png' alt='home'/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Right Now the current deployed version of this site can be found at:
+https://micaoz-3e29397c429a.herokuapp.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Future State Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Mobile responsivity
 
-### `npm run eject`
+-Routing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Home Page - UX:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    -Loading Page and load animations will be added
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    -Block1 - will have hover functionality my name so that my full last name displays on hover
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    -Block 2 - Icons will have a hover color change and animation
 
-## Learn More
+    -Block 3 - Will have custom frame by frame hover animations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    -Block 4 - Looper will be repositioned within the frame and increase responsivity
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    -Block 5 - onlick will cause each checker to change color, making it possible for users to make their own color patterns. 1 check square will have an easter egg modal
 
-### Code Splitting
+    -Block6 - Iris in the eye will follow mouse movements over the page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    -Block7 - Color pallet for a mini 'paint' widget
 
-### Analyzing the Bundle Size
+    -Block 8 - Menu will have 2 portfolio options - visual art or SWE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    -Block 9 - looper of slowly changing gradient
 
-### Making a Progressive Web App
+    -Block10 - Will have custom frame by frame hover animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    -Block 11 - Will be the canvas of a mini 'paint widget
 
-### Advanced Configuration
+    -Block 12 - Unsure if leaving blank, maybe add info of current proects?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    -Block 13 - Contact Page
