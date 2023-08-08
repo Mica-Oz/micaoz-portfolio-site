@@ -1,0 +1,32 @@
+#flex {
+  color: white;
+  background-color: black;
+  padding: 5vw;
+}
+#split {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+}
+#graphic {
+}
+img {
+  width: 20vw;
+}
+#inlineButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: "rubik";
+  font-weight: normal;
+  font-size: 1rem;
+  margin-left: 0;
+}
