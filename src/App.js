@@ -4,8 +4,8 @@ import About from "./About/About.js";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <About />
+      <Home />
+      {/* <About /> */}
     </div>
   );
 }
