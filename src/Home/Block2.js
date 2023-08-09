@@ -11,8 +11,12 @@ function Block2() {
   return (
     <div id="block2">
       <div id="row1">
-        <a className="icon" id="insta" href="https://www.instagram.com/mica.oz">
-          <img className="svg" alt="ig" src={igicon} />
+        <a
+          className="icon"
+          id="insta"
+          href="https://www.instagram.com/mica.oz/"
+        >
+          <img classname="svg" alt="ig" src={igicon} />
         </a>
 
         <a
@@ -20,7 +24,7 @@ function Block2() {
           id="linkedin"
           href="https://www.linkedin.com/in/mica-oz/"
         >
-          <img classname="svg" alt="ig" src={liicon} />
+          <img classname="svg" alt="li" src={liicon} />
         </a>
 
         <a className="icon" id="github" href="https://github.com/Mica-Oz">
