@@ -6,6 +6,22 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Rubik-black";
+  src: url("Rubik-Black.woff2") format("woff2"),
+    url("Rubik-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik-bold";
+  src: url("Rubik-Bold.woff2") format("woff2"),
+    url("Rubik-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 #block {
   height: 100%;
@@ -15,13 +31,14 @@
   flex-direction: column;
 }
 #name {
+  font-family: "Rubik-bold";
   font-weight: normal;
   margin: 0;
   margin-left: 3vw;
   margin-top: 2vw;
   color: black;
   font-size: 7vw;
-  -webkit-text-stroke: 3px black;
+  /* -webkit-text-stroke: 0.3rem black; */
 }
 #marquee {
   display: flex;
