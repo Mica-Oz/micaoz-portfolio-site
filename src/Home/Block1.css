@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/* why is this font only working on my computer where its downloaded? */
 #block {
   height: 100%;
   width: 60vw;
