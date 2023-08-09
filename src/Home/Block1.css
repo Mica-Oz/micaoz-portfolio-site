@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "rubiklight";
-  src: url("rubik-variablefont_wght-webfont.woff2") format("woff2"),
-    url("rubik-variablefont_wght-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Rubik";
+  src: url("Rubik-Light.woff2") format("woff2"),
+    url("Rubik-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
-/* why is this font only working on my computer where its downloaded? */
+
 #block {
   height: 100%;
   width: 60vw;
@@ -14,7 +15,6 @@
   flex-direction: column;
 }
 #name {
-  font-family: "rubik";
   font-weight: normal;
   margin: 0;
   margin-left: 3vw;
@@ -42,7 +42,7 @@
   animation: scroll 15s infinite linear;
 }
 .scrollText span {
-  /* font-family: "rubik" !important; */
+  font-family: "Rubik";
   font-weight: normal;
   margin: 0;
   margin-top: 2vh;
