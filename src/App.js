@@ -1,12 +1,16 @@
 import Home from "./Home/Home.js";
 import About from "./About/About.js";
 
+import { BrowserRouter as Browser, Switch, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <Home />
-      {/* <About /> */}
-    </div>
+    <Router>
+      <div className="App">
+        <Home />
+        {/* <About /> */}
+      </div>
+    </Router>
   );
 }
 
