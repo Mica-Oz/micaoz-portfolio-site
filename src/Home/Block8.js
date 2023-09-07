@@ -21,13 +21,14 @@ function Block8() {
         </div>
       ) : (
         <div>
-          <Link
-            className="link"
-            id="selected"
-            to="/"
-            onClick={portfolioToggleHandler}
-          >
-            <h1>PORTFOLIO</h1>
+          <Link className="link" id="selected" onClick={portfolioToggleHandler}>
+            <h1>PORTFOLIOO</h1>
+          </Link>
+          <Link className="link" id="art" to="/gallery">
+            <h1>ART</h1>
+          </Link>
+          <Link className="link" id="swe" to="/gallery">
+            <h1>SWE</h1>
           </Link>
         </div>
       )}
