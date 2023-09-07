@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("Rubik-Light.woff2") format("woff2"),
+    url("Rubik-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+.text {
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 3vw;
+  margin-bottom: 0.25em;
+  margin-top: 20;
+}
+.text2 {
+  font-family: "rubik";
+  font-weight: bold;
+  font-size: 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 68%,
+    rgba(255, 174, 233, 1) 100%
+  );
+}
+.App {
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  /* position: absolute; */
+  top: 10vh;
+  left: 12vw;
+  margin: 0;
+  height: 75vh;
+  width: 75vw;
+}
