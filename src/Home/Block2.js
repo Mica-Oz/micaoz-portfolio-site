@@ -16,7 +16,7 @@ function Block2() {
           id="insta"
           href="https://www.instagram.com/mica.oz/"
         >
-          <img classname="svg" alt="ig" src={igicon} />
+          <img className="svg" alt="ig" src={igicon} />
         </a>
 
         <a
@@ -24,7 +24,7 @@ function Block2() {
           id="linkedin"
           href="https://www.linkedin.com/in/mica-oz/"
         >
-          <img classname="svg" alt="li" src={liicon} />
+          <img className="svg" alt="li" src={liicon} />
         </a>
 
         <a className="icon" id="github" href="https://github.com/Mica-Oz">

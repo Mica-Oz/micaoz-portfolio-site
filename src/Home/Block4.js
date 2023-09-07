@@ -13,7 +13,7 @@ function Block4() {
         // height="120%"
         // controls={false}
         muted={true}
-        autoplay={true}
+        autoPlay={true}
         playing={true}
         loop={true}
       />
