@@ -15,62 +15,82 @@
   flex-direction: column;
   align-items: center;
   width: 33vw;
-  margin-left: 3vw;
-  margin-top: 3vw;
+  margin-left: 13vw;
 }
 #right {
   display: flex;
   flex-direction: column;
   width: 66vw;
   margin-right: 3vw;
-  margin-top: 3vw;
-}
-#graphic {
-}
-
-img {
-  width: 25vw;
-  margin-bottom: 0;
-}
-#inlineButton {
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-family: "rubik";
-  font-weight: normal;
-  font-size: 1rem;
-  margin-left: 0;
+  margin-top: 1vh;
 }
 #flex h1 {
   background-color: transparent;
   margin: 0;
-  font-size: 7.7vw;
+  font-size: 6.6vw;
   font-family: "Rubik";
   font-weight: bold;
   margin-bottom: 4vh;
-
   text-decoration: none;
 }
 
+#left img {
+  width: 25vw;
+
+  margin-bottom: 0;
+  border-radius: 15px;
+}
+#inlineButton {
+  background-color: transparent;
+  margin-left: 0;
+  border: none;
+  color: #80fff7;
+  font-family: "rubik";
+  font-weight: bold;
+  font-size: 1.6vw;
+  margin-left: 0;
+  text-decoration: underline;
+}
+
 #some {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Rubik";
   font-weight: bold;
-  margin: 0;
+  margin: 0.3vh 0 0 0;
 }
 #me {
   margin-top: 0;
+  margin-bottom: 2vh;
   color: #ffaee9;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Rubik";
   font-weight: bold;
 }
 #aboutContainer {
-  margin-top: 3vh;
+  margin-top: 0;
   margin-right: 7vw;
+  height: 25vw;
   font-family: Rubik;
-  font-size: 14px;
+  font-size: 1.5vw;
   display: flex;
   flex-direction: column;
-  height: 25vw;
+}
+#graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  background-color: black;
+}
+h4 {
+  margin: 1vw;
+}
+
+#abtLogo img {
+  margin-top: 4vh;
+  margin-left: 3vw;
+  width: 2vw;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(120deg)
+    brightness(111%) contrast(101%);
 }

@@ -1,0 +1,27 @@
+#container {
+  display: flex;
+
+  flex-direction: column;
+  height: 15vh;
+  width: 80vw;
+  gap: 0;
+}
+.crow1 {
+  height: 5vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.s1 {
+  height: 5vh;
+  width: 4vw;
+  background-color: #fffd71;
+  margin: 0;
+}
+.s2 {
+  height: 5vh;
+  width: 4vw;
+  background-color: black;
+  margin: 0;
+}
