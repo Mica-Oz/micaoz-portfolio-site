@@ -19,7 +19,7 @@ function Construction() {
 
   return (
     <div className="flex">
-      <div className="App">
+      <div className="constructionApp">
         <p className="text">THIS PAGE IS IN</p>
         <p className="text2">DEVELOPMENT</p>
         <div className="container" ref={container}></div>

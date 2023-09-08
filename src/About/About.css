@@ -1,7 +1,9 @@
 #flex {
   color: white;
   background-color: black;
-  padding: 5vw;
+
+  height: 100vh;
+  width: 100vw;
 }
 #split {
   display: flex;
@@ -11,15 +13,24 @@
 #left {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 33vw;
+  margin-left: 3vw;
+  margin-top: 3vw;
 }
 #right {
   display: flex;
   flex-direction: column;
+  width: 66vw;
+  margin-right: 3vw;
+  margin-top: 3vw;
 }
 #graphic {
 }
+
 img {
-  width: 20vw;
+  width: 25vw;
+  margin-bottom: 0;
 }
 #inlineButton {
   background-color: transparent;
@@ -29,4 +40,37 @@ img {
   font-weight: normal;
   font-size: 1rem;
   margin-left: 0;
+}
+#flex h1 {
+  background-color: transparent;
+  margin: 0;
+  font-size: 7.7vw;
+  font-family: "Rubik";
+  font-weight: bold;
+  margin-bottom: 4vh;
+
+  text-decoration: none;
+}
+
+#some {
+  font-size: 3vw;
+  font-family: "Rubik";
+  font-weight: bold;
+  margin: 0;
+}
+#me {
+  margin-top: 0;
+  color: #ffaee9;
+  font-size: 3vw;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+#aboutContainer {
+  margin-top: 3vh;
+  margin-right: 7vw;
+  font-family: Rubik;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 25vw;
 }
