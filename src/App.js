@@ -1,5 +1,6 @@
 import Home from "./Home/Home.js";
 import About from "./About/About.js";
+import SWE from "./SWE/Swe.js";
 import Gallery from "./Gallery/Gallery.js";
 import Construction from "./Home/Construction.js";
 
@@ -11,6 +12,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/swe" element={<SWE />} />
+
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/construction" element={<Construction />} />

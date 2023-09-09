@@ -25,7 +25,7 @@ function Block8() {
           <Link className="link" id="art" to="/construction">
             <h2>ART</h2>
           </Link>
-          <Link className="link" id="swe" to="/construction">
+          <Link className="link" id="swe" to="/swe">
             <h2>SWE</h2>
           </Link>
         </div>
