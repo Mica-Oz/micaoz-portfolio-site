@@ -3,22 +3,47 @@
   flex-direction: column;
   background-color: none;
 }
-#header {
+#projHeader {
   margin-top: 5vh;
   margin-left: 5vw;
-  font-size: 1.2vw;
+  font-size: 1vw;
+  width: 65vw;
   color: black;
+  text-decoration: none;
+}
+/* unvisited link */
+#projHeader a:link {
+  color: white;
+}
+
+/* visited link */
+#projHeader a:visited {
+  color: white;
+}
+
+/* mouse over link */
+#projHeader a:hover {
+  color: #ffaee9;
+}
+
+/* selected link */
+#projHeader a:active {
+  color: #ffed8a;
 }
 #projectPlayer {
   margin-top: 5vh;
   overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+  width: 50vw;
+  height: 28.125vw;
 }
 #body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#projectPlayer iframe {
+  width: 50vw;
+  height: 28.125vw;
+  overflow: hidden;
 }
