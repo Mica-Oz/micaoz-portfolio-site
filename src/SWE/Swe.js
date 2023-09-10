@@ -2,6 +2,13 @@ import React, { useEffect, useState } from "react";
 import "./swe.css";
 import { Link } from "react-router-dom";
 import home from "../About/left-arrow.svg";
+import Port from "./Projects/port.js";
+import Rotoflo from "./Projects/rotoflo.js";
+import AVL from "./Projects/avl.js";
+import Botanik from "./Projects/botanik.js";
+import Doodad from "./Projects/doodad.js";
+import GAP from "./Projects/gap.js";
+import Stackathon from "./Projects/stackathon.js";
 
 function SWE() {
   const [project, setProject] = useState("begin");
@@ -9,26 +16,7 @@ function SWE() {
   function projectSelect(proj) {
     setProject(proj);
   }
-  function renderSwitch(p) {
-    switch (p) {
-      case "port":
-        return "port";
-      case "rotoflo":
-        return "roto";
-      case "AVL":
-        return "avl";
-      case "botanik":
-        return "botanik";
-      case "doodad":
-        return "doodad";
-      case "GAP":
-        return "GAP";
-      case "stackathon":
-        return "stackathon";
-      default:
-        return null;
-    }
-  }
+
   return (
     <div id="flex">
       <div id="sweSplit">
@@ -56,8 +44,8 @@ function SWE() {
           </button>
           <button
             className="navProj"
-            value="AVL"
-            id="AVL"
+            value="avl"
+            id="avl"
             onClick={(e) => projectSelect(e.target.value)}
           >
             ASPEN VALLEY LAW
@@ -82,8 +70,8 @@ function SWE() {
 
           <button
             className="navProj"
-            value="GAP"
-            id="GAP"
+            value="gap"
+            id="gap"
             onClick={(e) => projectSelect(e.target.value)}
           >
             GRAY AREA PROJECTS
@@ -98,7 +86,19 @@ function SWE() {
           </button>
         </div>
 
-        <div id="sweViewer">{renderSwitch(project)}</div>
+        <div id="sweViewer">
+          {
+            {
+              port: <Port />,
+              rotoflo: <Rotoflo />,
+              avl: <AVL />,
+              botanik: <Botanik />,
+              doodad: <Doodad />,
+              gap: <GAP />,
+              stackathon: <Stackathon />,
+            }[project]
+          }
+        </div>
       </div>
     </div>
   );
