@@ -5,26 +5,27 @@ function Rotoflo() {
   return (
     <div id="rotofloFlex">
       <div id="projHeader">
-        <h3>TITLE: ROTOFLO</h3>
+        <h3 id="title">ROTOFLO</h3>
         <h3>
-          DESCRIPTION: A motion interactive AR experience. Rotoflo leverages
-          machine learning to generate dynamic, algorithmic, full body filters,
-          allowing users to save and share stunning and expressive video
-          content.{" "}
+          {" "}
+          A motion interactive AR experience. Rotoflo leverages machine learning
+          to generate dynamic, algorithmic, full body filters, allowing users to
+          save and share stunning and expressive video content.{" "}
         </h3>
-        <h3>
-          SITE: <a href="www.rotoflo.herokuapp.com">ROTOFLO</a>
-        </h3>
-        <h3>
-          REPO: <a href="https://github.com/GH-Team-Coconut/RotoFlo">GITHUB</a>
-        </h3>
+        <div id="links">
+          <h3>
+            <a href="www.rotoflo.herokuapp.com">APPLICATION</a>
+          </h3>
+          <h3>
+            <a href="https://github.com/GH-Team-Coconut/RotoFlo">REPOSITORY</a>
+          </h3>
 
-        <h3>
-          PRESS:{" "}
-          <a href="https://www.youtube.com/watch?v=ijz9nGKCrkI&t=2s">
-            GOOGLE - TENSORFLOW.JS INTERVIEW
-          </a>
-        </h3>
+          <h3>
+            <a href="https://www.youtube.com/watch?v=ijz9nGKCrkI&t=2s">
+              GOOGLE - TENSORFLOW.JS INTERVIEW
+            </a>
+          </h3>
+        </div>
       </div>
       <div id="body">
         <div id="projectPlayer">

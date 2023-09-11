@@ -9,9 +9,11 @@ import Botanik from "./Projects/botanik.js";
 import Doodad from "./Projects/doodad.js";
 import GAP from "./Projects/gap.js";
 import Stackathon from "./Projects/stackathon.js";
+import Featured from "./Projects/featured.js";
+import Soon from "./Projects/soon";
 
 function SWE() {
-  const [project, setProject] = useState("begin");
+  const [project, setProject] = useState("featured");
 
   function projectSelect(proj) {
     setProject(proj);
@@ -89,13 +91,14 @@ function SWE() {
         <div id="sweViewer">
           {
             {
-              port: <Port />,
+              port: <Soon />,
               rotoflo: <Rotoflo />,
-              avl: <AVL />,
-              botanik: <Botanik />,
-              doodad: <Doodad />,
-              gap: <GAP />,
-              stackathon: <Stackathon />,
+              avl: <Soon />,
+              botanik: <Soon />,
+              doodad: <Soon />,
+              gap: <Soon />,
+              stackathon: <Soon />,
+              featured: <Featured />,
             }[project]
           }
         </div>
